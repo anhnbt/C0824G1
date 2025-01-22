@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #282781;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 10px;
+}
+
+form {
+  display: flex;
+}
+
+form input {
+  flex: 1;
+}
+
+button {
+  background-color: #282781;
+  color: white;
+  padding: 6px 12px;
+  border: 1px solid #282781;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #212065;
+  border-color: #212065;
+}
+
+input {
+  padding: 6px 12px;
+}
+
+.active {
+  text-decoration: line-through;
+  color: green;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.btn-delete {
+  background-color: #d33;
+  border-color: #d33;
+}
+.btn-delete:hover {
+  background-color: rgb(163, 0, 0);
+  border-color: rgb(163, 0, 0);
+}
